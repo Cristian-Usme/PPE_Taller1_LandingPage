@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Moderna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">Pan & Oro</div>
+            <ul class="nav-links">
+                <li><a href="#banners">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#video">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="banners" class="banner-rotator">
+        <div class="banner-slide active"><img src="https://images.unsplash.com/photo-1509406422903-af9df4c31e4b?auto=format&fit=crop&w=800&q=80" alt="Panadería mostrador"></div>
+        <div class="banner-slide"><img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80" alt="Panadero trabajando"></div>
+        <div class="banner-slide"><img src="https://images.unsplash.com/photo-1519864621043-6c8c1b7b8a19?auto=format&fit=crop&w=800&q=80" alt="Panadería artesanal"></div>
+        <button class="banner-prev">&#10094;</button>
+        <button class="banner-next">&#10095;</button>
+    </section>
+    <section id="galeria" class="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria-grid">
+            <img src="https://images.unsplash.com/photo-1509406422903-af9df4c31e4b?auto=format&fit=crop&w=400&q=80" alt="Panadería mostrador">
+            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="Panadero trabajando">
+            <img src="https://images.unsplash.com/photo-1519864621043-6c8c1b7b8a19?auto=format&fit=crop&w=400&q=80" alt="Panadería artesanal">
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Panadería pan fresco">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=400&q=80" alt="Panadería baguettes">
+            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Panadería panadería interior">
+        </div>
+    </section>
+    <section id="video" class="video-section">
+        <h2>Video Destacado</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Pan & Oro. Todos los derechos reservados.</p>
+    </footer>
+    <button class="floating-btn">WhatsApp</button>
+    <script src="script.js"></script>
+</body>
+</html>
